@@ -1,0 +1,22 @@
+.btn{
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background-color: #ebf1fa;
+    font-size: 30px;
+    display: block;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: -9px -8px 23px 0px white, 8px 1px 10px 0px grey;
+    cursor: pointer;
+    text-transform: uppercase;
+    color:#8c9094;
+}
+.btn:hover {
+    background-color: #c4d7dc;
+    transition: background-color 0.5s ease;
+}
+.btn:active {
+    background-color: #c49bfa;
+    transition: background-color 0.5s ease;
+}
